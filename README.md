@@ -84,6 +84,7 @@ Clique na imagem acima para assistir ao vídeo de demonstração no YouTube.
 3. Configure o arquivo `.env`:
    - Adicione suas chaves e configurações no formato abaixo:
      ```plaintext
+      DATABASE_URL=<NEON_POSTGRESQL>
       CLERK_SECRET_KEY=
       NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
       NEXT_PUBLIC_STRIPE_CUSTOMER_PORTAL_URL=
